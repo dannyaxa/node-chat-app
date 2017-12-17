@@ -9,7 +9,7 @@ var app = express();
 app.use(express.static(publicPath));
 
 
-app.listen(PORT, () => {
-  console.log("server is up on PORT");
+app.listen(port, () => {
+  console.log(`server is up on ${port}`);
 });
 module.exports.app = app;
