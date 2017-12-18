@@ -1,7 +1,6 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyaxa/node-chat-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dannyaxa/node-chat-app/issues"
+  },
+  "homepage": "https://github.com/dannyaxa/node-chat-app#readme",
+  "description": ""
 }
