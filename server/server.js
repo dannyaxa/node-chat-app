@@ -11,8 +11,12 @@ app.use(express.static(publicPath));
 var server = http.createServer(app);
 var io = socketIO(server);
 
-io.on('connection', (socket) => {
-  console.log('New User Connected');
+io.on('connect', function (socket) {
+  console.log('new client Connected');
+
+  socket.on('disconnect', function () {
+    console.log('client disconnected from server')
+  });
 });
 
 
